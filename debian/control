@@ -7,10 +7,9 @@ Build-Depends: debhelper-compat (= 13)
  , gulp
  , mocha (>= 4)
  , node-gulp-sourcemaps
- , node-gulp-util
  , node-should
  , dh-sequence-nodejs
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-teamn/node-gulp-rename
 Vcs-Git: https://salsa.debian.org/js-team/node-gulp-rename.git
 Homepage: https://github.com/hparra/gulp-rename
@@ -20,7 +19,7 @@ Rules-Requires-Root: no
 Package: node-gulp-rename
 Architecture: all
 Depends: ${misc:Depends}
- , nodejs
+ , nodejs:any
 Recommends: gulp
 Enhances: gulp
 Description: gulp pulgin to rename files
