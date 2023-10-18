@@ -1,3 +1,18 @@
+node-gulp-rename (2.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-gulp-rename: Add :any qualifier for nodejs dependency.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 14:11:45 +0000
+
+node-gulp-rename (2.0.0-1) unstable; urgency=medium
+
+  * New upstream version 2.0.0 (Closes: #1000243)
+  * Bump Standards-Version to 4.6.1 (no changes needed)
+  * Drop build dependency on node-gulp-util
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 16 May 2022 01:03:59 +0530
+
 node-gulp-rename (1.2.2-4) unstable; urgency=medium
 
   * Team upload
